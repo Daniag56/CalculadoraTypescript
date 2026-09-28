@@ -50,7 +50,6 @@ function realizarOperacion(operacion: string) {
   if (operador1 === null) {
     operador1 = valorActual;
   } else if (operadorPendiente) {
-    // Ejecutar operación pendiente
     switch (operadorPendiente) {
       case "+":
         operador1 += valorActual;
