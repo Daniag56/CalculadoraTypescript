@@ -1,0 +1,47 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #1e1e1e;
+    }
+
+    .calculator {
+        background-color: #2d2d2d;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        width: 320px;
+        padding: 20px;
+    }
+
+    .display {
+        background-color: #1a1a1a;
+        color: #ffffff;
+        font-size: 2.5rem;
+        text-align: right;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        word-wrap: break-word;
+        min-height: 80px;
+    }
+
+    .keypad {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    /* 1. Estilo general para todos los botones dentro del keypad / .keypad button { border: none; border-radius: 8px; font-size: 1.5rem; padding: 15px; cursor: pointer; background-color: #3d3d3d; color: white; transition: background-color 0.2s; } .keypad button:hover { background-color: #4d4d4d; } .keypad button:active { background-color: #5d5d5d; } / 2. Operadores (usando los IDs que has puesto) / #division, #multiplicar, #restar, #sumar { background-color: #ff9500; } #division:hover, #multiplicar:hover, #restar:hover, #sumar:hover { background-color: #ffaa33; } / 3. Botón igual / #igual { background-color: #007aff; grid-column: 4; / Lo ponemos en la última columna / grid-row: 4 / span 2; / Hacemos que baje dos casillas / } #igual:hover { background-color: #3395ff; } / 4. Botón cero / #btn0 { grid-column: 1 / span 2; / Hacemos que sea el doble de ancho / } / 5. Botón limpiar / #limpiar { background-color: #ff3b30; grid-column: 1 / span 2; / También el doble de ancho para que cuadre la cuadrícula */
+
+
+#limpiar:hover {
+    background-color: #ff5c53;
+}
