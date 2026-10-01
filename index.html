@@ -1,36 +1,58 @@
 <!doctype html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora TypeScript</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <div class="calculator">
+    <div class="calculator" id="calc1">
         <div class="display" id="display">0</div>
         <div class="keypad">
-            <button id="limpiar">C</button>
-            <button id="division">÷</button>
-            <button id="multiplicar">x</button>
+            <button id="limpiar" class="limpiar">C</button>
+            <button id="division" class="operador">÷</button>
+            <button id="multiplicar" class="operador">×</button>
             <button id="btn7">7</button>
             <button id="btn8">8</button>
             <button id="btn9">9</button>
-            <button id="restar">-</button>
+            <button id="restar" class="operador">-</button>
             <button id="btn4">4</button>
             <button id="btn5">5</button>
             <button id="btn6">6</button>
-            <button id="sumar">+</button>
+            <button id="sumar" class="operador">+</button>
             <button id="btn1">1</button>
             <button id="btn2">2</button>
             <button id="btn3">3</button>
-            <button id="igual">=</button>
-            <button id="btn0">0</button>
+            <button id="igual" class="igual">=</button>
+            <button id="btn0" class="cero">0</button>
             <button id="decimal">.</button>
         </div>
-        <script src="dist/index.js" defer></script>
-</body>
+    </div>
 
+    <div class="calculator" id="calc2">
+        <div class="display" id="display2">0</div>
+        <div class="keypad">
+            <button id="limpiarb" class="limpiar">C</button>
+            <button id="divisionb" class="operador">÷</button>
+            <button id="multiplicarb" class="operador">×</button>
+            <button id="btn7b">7</button>
+            <button id="btn8b">8</button>
+            <button id="btn9b">9</button>
+            <button id="restarb" class="operador">-</button>
+            <button id="btn4b">4</button>
+            <button id="btn5b">5</button>
+            <button id="btn6b">6</button>
+            <button id="sumarb" class="operador">+</button>
+            <button id="btn1b">1</button>
+            <button id="btn2b">2</button>
+            <button id="btn3b">3</button>
+            <button id="igualb" class="igual">=</button>
+            <button id="btn0b" class="cero">0</button>
+            <button id="decimalb">.</button>
+        </div>
+    </div>
+
+    <script src="dist/index.js" defer></script>
+</body>
 </html>
